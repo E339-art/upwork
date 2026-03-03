@@ -1,0 +1,15 @@
+{
+    "servers": [
+        {
+            "id": "vscode-mcp-server",
+            "displayName": "VSCode MCP Server (Local)",
+            "description": "A local instance of the VSCode MCP Server for development.",
+            "transports": [
+                {
+                    "type": "stdio",
+                    "command": ["node", "${workspaceRoot}/dist/mcp-server.js"]
+                }
+            ]
+        }
+    ]
+}
